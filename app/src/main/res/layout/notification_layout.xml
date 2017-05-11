@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:id="@+id/notification">
+
+    <ImageView
+        android:id="@+id/notifition_ico"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher" />
+
+    <RelativeLayout
+        android:id="@+id/notifition_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/notifition_ico" >
+
+        <TextView
+            android:id="@+id/notifition_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="213"
+            android:textColor="#aaa"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/notifition_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notifition_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:textColor="#aaa"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="213"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
