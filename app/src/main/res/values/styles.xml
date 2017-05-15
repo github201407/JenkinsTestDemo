@@ -6,31 +6,5 @@
 
     </style>
 
-    <style name="fw_new_search_list_history">
-        <item name="android:layout_height">26dp</item>
-        <item name="android:background">@drawable/fw_search_list_gj_grey_bg</item>
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:singleLine">true</item>
-        <item name="android:gravity">center</item>
-        <item name="android:textColor">#474747</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:paddingLeft">8dp</item>
-        <item name="android:paddingRight">8dp</item>
-        <item name="android:layout_marginRight">12dp</item>
-        <item name="android:drawableLeft">@drawable/fw_search_history_ico</item>
-    </style>
-
-    <style name="NoTitleDialog" parent="android:style/Theme.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowIsFloating">true</item>
-    </style>
-
-    <style name="float_vip_give_up">
-        <item name="android:background">@drawable/bg_white_radius</item>
-        <item name="android:layout_width">276dp</item>
-        <item name="android:layout_height">242dp</item><!--292dp-->
-    </style>
 
 </resources>
