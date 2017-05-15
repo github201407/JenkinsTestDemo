@@ -8,7 +8,6 @@
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-        android:name=".BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -21,11 +20,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!--2.7.5 处理2002推送消息-->
-        <meta-data
-            android:name="JPUSH_APPKEY"
-            android:value="ade0ad22f8e6234bd47e7fdd" />
     </application>
 
 </manifest>
