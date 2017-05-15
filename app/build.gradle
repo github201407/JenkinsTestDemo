@@ -19,6 +19,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    lintOptions {
+        abortOnError false
+    }
+
+    /*
     productFlavors {
         hi {
             applicationId 'com.life.hi'
@@ -29,7 +34,7 @@ android {
         hyrz {
             applicationId 'com.cyjh.hyrz'
         }
-    }
+    }*/
 }
 
 dependencies {
